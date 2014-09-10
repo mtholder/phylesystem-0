@@ -35,4 +35,3 @@ See [phylesystem](https://github.com/OpenTreeOfLife/phylesystem) for more detail
 
 The *data* in this repository is released under the [Create Commons Zero 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license.
 
-
