@@ -27,7 +27,7 @@
 "otherProperty": [
 {
 "name": "pythonVersion", 
-"value": "2.7.6"
+"value": "2.7.3"
 }, 
 {
 "name": "pythonImplementation", 
@@ -41,11 +41,16 @@
 "^ot:annotationEvents": {
 "annotation": []
 }, 
-"^ot:curatorName": "Mark T. Holder", 
+"^ot:curatorName": "Jim Allman", 
 "^ot:otusElementOrder": [
 "otus1"
 ], 
 "^ot:studyId": "ot_44", 
+"^ot:studyPublication": {
+"@href": "http://dx.doi.org/10.1111/j.1742-4658.2011.08468.x"
+}, 
+"^ot:studyPublicationReference": "Maria Svedendahl Humble, Karim Engelmark Cassimjee, Maria H\u00e5kansson, Yengo Raymond Kimbung, Bj\u00f6rn Walse, Vahak Abedi, Hans-J\u00fcrgen Federsel, Per Berglund, Derek T. Logan, 2011, ' Crystal structures of the Chromobacterium violaceum \u03c9-transaminase reveal major structural rearrangements upon binding of coenzyme PLP ', FEBS Journal, pp. no-no", 
+"^ot:studyYear": "2011", 
 "^ot:treesElementOrder": [
 "trees1"
 ], 
