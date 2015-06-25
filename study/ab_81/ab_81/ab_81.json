@@ -1,0 +1,2415 @@
+{
+"nexml": {
+"@generator": "org.nexml.model.impl.DocumentImpl", 
+"@id": "S14763", 
+"@nexml2json": "1.2.1", 
+"@version": "0.9", 
+"@xmlns": {
+"$": "http://www.nexml.org/2009", 
+"dc": "http://purl.org/dc/elements/1.1/", 
+"dcterms": "http://purl.org/dc/terms/", 
+"nex": "http://www.nexml.org/2009", 
+"prism": "http://prismstandard.org/namespaces/1.2/basic/", 
+"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+"rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+"skos": "http://www.w3.org/2004/02/skos/core#", 
+"tb": "http://purl.org/phylo/treebase/2.0/terms#", 
+"xsd": "http://www.w3.org/2001/XMLSchema#", 
+"xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}, 
+"^dc:contributor": [
+"Lewis L.", 
+"Lewis P.", 
+"Fucikova K."
+], 
+"^dc:creator": "Fucikova K., Lewis P., & Lewis L.", 
+"^dc:date": "2014-05-08", 
+"^dc:publisher": "Phycological Reserach", 
+"^dc:subject": [
+"Trebouxiophyceae", 
+"rbcL", 
+"extremophile", 
+"distribution", 
+"desert", 
+"cryptic diversity", 
+"coccoid", 
+"18S rRNA"
+], 
+"^dc:title": "Widespread desert affiliation of trebouxiophycean algae (Trebouxiophyceae, Chlorophyta) including discovery of three new desert genera.", 
+"^dcterms:bibliographicCitation": "Fucikova K., Lewis P., & Lewis L. 2014. Widespread desert affiliation of trebouxiophycean algae (Trebouxiophyceae, Chlorophyta) including discovery of three new desert genera. Phycological Reserach, .", 
+"^ot:agents": {
+"agent": [
+{
+"@description": "Open Tree NexSON validation", 
+"@id": "peyotl-validator", 
+"@name": "api.opentreeoflife.org/validate", 
+"@url": "https://github.com/OpenTreeOfLife/peyotl", 
+"@version": "0.0.4a", 
+"invocation": {
+"commandLine": [], 
+"otherProperty": [
+{
+"name": "pythonVersion", 
+"value": "2.7.8"
+}, 
+{
+"name": "pythonImplementation", 
+"value": "CPython"
+}
+]
+}
+}
+]
+}, 
+"^ot:annotationEvents": {
+"annotation": []
+}, 
+"^ot:curatorName": "Mark T. Holder", 
+"^ot:dataDeposit": {
+"@href": "http://purl.org/phylo/treebase/phylows/study/TB2:S14763"
+}, 
+"^ot:otusElementOrder": [
+"Tls37511"
+], 
+"^ot:studyId": "ab_81", 
+"^ot:studyPublicationReference": "Fucikova K., Lewis P., & Lewis L. 2014. Widespread desert affiliation of trebouxiophycean algae (Trebouxiophyceae, Chlorophyta) including discovery of three new desert genera. Phycological Reserach, .", 
+"^ot:studyYear": 2014, 
+"^ot:taxonLinkPrefixes": {
+"@ubio": "http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:", 
+"@uniprot": "http://purl.uniprot.org/taxonomy/"
+}, 
+"^ot:treesElementOrder": [
+"Tb25676"
+], 
+"^prism:creationDate": "2013-09-25", 
+"^prism:modificationDate": "2014-05-08", 
+"^prism:publicationDate": "2014", 
+"^prism:publicationName": "Phycological Reserach", 
+"^prism:section": "Study", 
+"^skos:changeNote": "Generated on Thu Jun 25 09:29:15 EDT 2015", 
+"^skos:historyNote": "Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlDocumentWriter@11ca32a6 $Rev: 1060 $", 
+"^tb:identifier.study": "14763", 
+"^tb:title.study": "Trebouxiophyte (Chlorophyta) algae from desert soils: discovery of three new lineages", 
+"^xhtml:license": {
+"@href": "http://creativecommons.org/publicdomain/zero/1.0/"
+}, 
+"otusById": {
+"Tls37511": {
+"@label": "Untitled Taxa Block", 
+"^skos:historyNote": "Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlOTUWriter@60d49224 $Rev: 1040 $", 
+"otuById": {
+"Tl1491801": {
+"^ot:altLabel": "Geminella minor", 
+"^ot:originalLabel": "Geminella minor AF387151", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 155397, 
+"@tb:identifier.taxonVariant": 436982, 
+"@ubio": "3870104", 
+"@uniprot": "163309"
+}
+}, 
+"Tl1491802": {
+"^ot:originalLabel": "Parachloroidium lobatum HF586460"
+}, 
+"Tl1491803": {
+"^ot:originalLabel": "Micractinium reisseri AB506071"
+}, 
+"Tl1491804": {
+"^ot:originalLabel": "Choricystis sp X81965"
+}, 
+"Tl1491805": {
+"^ot:originalLabel": "Trebouxiophyceae sp WJT24VFNP38 JX446488"
+}, 
+"Tl1491806": {
+"^ot:originalLabel": "Chlorellaceae sp WJT36VFNP23 JX446472"
+}, 
+"Tl1491807": {
+"^ot:originalLabel": "Watanabea sp SEV2VF2"
+}, 
+"Tl1491808": {
+"^ot:originalLabel": "Neocystis mucosa JQ920365"
+}, 
+"Tl1491809": {
+"^ot:originalLabel": "Nannochloris sp AY195983"
+}, 
+"Tl1491810": {
+"^ot:originalLabel": "Myrmecia sp WJT61VFNP15 JX446482"
+}, 
+"Tl1491811": {
+"^ot:altLabel": "Radiofilum conjunctivum", 
+"^ot:originalLabel": "Radiofilum conjunctivum AF387155", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 155411, 
+"@tb:identifier.taxonVariant": 230781, 
+"@ubio": "3870100", 
+"@uniprot": "163323"
+}
+}, 
+"Tl1491812": {
+"^ot:altLabel": "Trebouxia arboricola", 
+"^ot:originalLabel": "Trebouxia arboricola Z68705", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 29325, 
+"@tb:identifier.taxonVariant": 68363, 
+"@ubio": "3869956", 
+"@uniprot": "53268"
+}
+}, 
+"Tl1491813": {
+"^ot:originalLabel": "Muriella sp ANP1VF3"
+}, 
+"Tl1491814": {
+"^ot:altLabel": "Muriella terrestris", 
+"^ot:originalLabel": "Muriella terrestris AB012845", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 88627, 
+"@tb:identifier.taxonVariant": 167492, 
+"@ubio": "3530087", 
+"@uniprot": "75799"
+}
+}, 
+"Tl1491815": {
+"^ot:originalLabel": "Eremochloris sphaerica BC4VF29"
+}, 
+"Tl1491816": {
+"^ot:originalLabel": "Chlorellaceae sp WJT4VFNP5 JX446465"
+}, 
+"Tl1491817": {
+"^ot:originalLabel": "Desertella californica EM2VF32"
+}, 
+"Tl1491818": {
+"^ot:originalLabel": "Myrmecia sp H1VF1 AF513369"
+}, 
+"Tl1491819": {
+"^ot:altLabel": "Closteriopsis acicularis", 
+"^ot:originalLabel": "Closteriopsis acicularis Y17470", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 93425, 
+"@tb:identifier.taxonVariant": 172397, 
+"@ubio": "3925703", 
+"@uniprot": "82138"
+}
+}, 
+"Tl1491820": {
+"^ot:originalLabel": "Chloropyrula uraliensis JX070625"
+}, 
+"Tl1491821": {
+"^ot:originalLabel": "Neocystis brevis HQ287929"
+}, 
+"Tl1491822": {
+"^ot:originalLabel": "Elliptochloris bilobata var corticola EF688289"
+}, 
+"Tl1491823": {
+"^ot:originalLabel": "Myrmecia sp SEV3VF12"
+}, 
+"Tl1491824": {
+"^ot:originalLabel": "Parachloroidium laureanum HF586459"
+}, 
+"Tl1491825": {
+"^ot:altLabel": "Parachlorella kessleri", 
+"^ot:originalLabel": "Parachlorella kessleri X56105", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 5878, 
+"@tb:identifier.taxonVariant": 113112, 
+"@ubio": "5952255", 
+"@uniprot": "3074"
+}
+}, 
+"Tl1491826": {
+"^ot:altLabel": "Botryococcus braunii", 
+"^ot:originalLabel": "Botryococcus braunii GU951518", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 615793, 
+"@tb:identifier.taxonVariant": 823456, 
+"@ubio": "3870066", 
+"@uniprot": "38881"
+}
+}, 
+"Tl1491827": {
+"^ot:altLabel": "Oocystis solitaria", 
+"^ot:originalLabel": "Oocystis solitaria AF228686", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 19621, 
+"@tb:identifier.taxonVariant": 45679, 
+"@ubio": "3869973", 
+"@uniprot": "120749"
+}
+}, 
+"Tl1491828": {
+"^ot:altLabel": "Dictyosphaerium ehrenbergianum", 
+"^ot:originalLabel": "Dictyosphaerium ehrenbergianum CCAP222 1A GQ176854", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 570349, 
+"@tb:identifier.taxonVariant": 790655, 
+"@ubio": "3870064", 
+"@uniprot": "745283"
+}
+}, 
+"Tl1491829": {
+"^ot:originalLabel": "Chloroidium saccharophilum FM946000"
+}, 
+"Tl1491830": {
+"^ot:originalLabel": "Chlorella sp MBIC10057 AB058305"
+}, 
+"Tl1491831": {
+"^ot:altLabel": "Coccomyxa pringsheimii", 
+"^ot:originalLabel": "Coccomyxa pringsheimii AY762603", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 274774, 
+"@tb:identifier.taxonVariant": 329462, 
+"@ubio": "3529648", 
+"@uniprot": "312852"
+}
+}, 
+"Tl1491832": {
+"^ot:originalLabel": "Trebouxiophyceae sp SC2 2 FJ946881"
+}, 
+"Tl1491833": {
+"^ot:altLabel": "Trebouxia asymmetrica", 
+"^ot:originalLabel": "Trebouxia asymmetrica Z21553", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 29326, 
+"@tb:identifier.taxonVariant": 68364, 
+"@ubio": "5952834", 
+"@uniprot": "13787"
+}
+}, 
+"Tl1491834": {
+"^ot:altLabel": "Stichococcus bacillaris", 
+"^ot:originalLabel": "Stichococcus bacillaris AJ416107", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 28004, 
+"@tb:identifier.taxonVariant": 65357, 
+"@ubio": "5953403", 
+"@uniprot": "37433"
+}
+}, 
+"Tl1491835": {
+"^ot:altLabel": "Prasiola crispa", 
+"^ot:originalLabel": "Prasiola crispa AJ416106", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 23529, 
+"@tb:identifier.taxonVariant": 55082, 
+"@ubio": "3904557", 
+"@uniprot": "173492"
+}
+}, 
+"Tl1491836": {
+"^ot:originalLabel": "Muriella sp ANP1VF4"
+}, 
+"Tl1491837": {
+"^ot:originalLabel": "Parachloroidium lobatum HF586461"
+}, 
+"Tl1491838": {
+"^ot:originalLabel": "Heveochlorella hainangensis EF595524", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 438962, 
+"@tb:identifier.taxonVariant": 578561
+}
+}, 
+"Tl1491839": {
+"^ot:originalLabel": "Diplosphaera chodatii AB055867"
+}, 
+"Tl1491840": {
+"^ot:altLabel": "Parietochloris pseudoalveolaris", 
+"^ot:originalLabel": "Parietochloris pseudoalveolaris M63002", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 428800, 
+"@tb:identifier.taxonVariant": 47785, 
+"@ubio": "4931156", 
+"@uniprot": "3102"
+}, 
+"^skos:prefLabel": "Ettlia pseudoalveolaris"
+}, 
+"Tl1491841": {
+"^ot:originalLabel": "Chlorellaceae sp WJT66VFNP79 JX446474"
+}, 
+"Tl1491842": {
+"^ot:originalLabel": "Watanabea sp SEV1VF9"
+}, 
+"Tl1491843": {
+"^ot:originalLabel": "Kalinella bambusicola EU346910", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 455451, 
+"@tb:identifier.taxonVariant": 603009
+}
+}, 
+"Tl1491844": {
+"^ot:originalLabel": "Neocystis sp NB1VF23"
+}, 
+"Tl1491845": {
+"^ot:altLabel": "Botryococcus braunii", 
+"^ot:originalLabel": "Botryococcus braunii AJ581912", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 615793, 
+"@tb:identifier.taxonVariant": 823456, 
+"@ubio": "3870066", 
+"@uniprot": "38881"
+}
+}, 
+"Tl1491846": {
+"^ot:originalLabel": "Chlorellaceae sp WJT36VFNP9 JX446471"
+}, 
+"Tl1491847": {
+"^ot:originalLabel": "Asterochloris erici AB080310"
+}, 
+"Tl1491848": {
+"^ot:altLabel": "Asterochloris phycobiontica", 
+"^ot:originalLabel": "Asterochloris phycobiontica GU017647", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 405425, 
+"@tb:identifier.taxonVariant": 409082, 
+"@ubio": "3320080", 
+"@uniprot": "477178"
+}
+}, 
+"Tl1491849": {
+"^ot:altLabel": "Watanabea reniformis", 
+"^ot:originalLabel": "Watanabea reniformis FM958480", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 30858, 
+"@tb:identifier.taxonVariant": 72029, 
+"@ubio": "3322787", 
+"@uniprot": "191674"
+}
+}, 
+"Tl1491850": {
+"^ot:originalLabel": "Parietochloris ovoidea EU878374", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 504970, 
+"@tb:identifier.taxonVariant": 669104
+}
+}, 
+"Tl1491851": {
+"^ot:altLabel": "Stichococcus bacillaris", 
+"^ot:originalLabel": "Stichococcus bacillaris AB055864", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 28004, 
+"@tb:identifier.taxonVariant": 65357, 
+"@ubio": "5953403", 
+"@uniprot": "37433"
+}
+}, 
+"Tl1491852": {
+"^ot:originalLabel": "Xerochlorella olmae LG3VF19"
+}, 
+"Tl1491853": {
+"^ot:altLabel": "Chlorella mirabilis", 
+"^ot:originalLabel": "Chlorella mirabilis X74000", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 5881, 
+"@tb:identifier.taxonVariant": 14234, 
+"@ubio": "3309429", 
+"@uniprot": "3083"
+}, 
+"^skos:prefLabel": "'Chlorella' mirabilis"
+}, 
+"Tl1491854": {
+"^ot:originalLabel": "Xerochlorella olmae EM3VF21"
+}, 
+"Tl1491855": {
+"^ot:originalLabel": "Meyerella planktonica AY543039", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 202417, 
+"@tb:identifier.taxonVariant": 782498
+}
+}, 
+"Tl1491856": {
+"^ot:originalLabel": "Auxenochlorella protothecoides var acidicola AJ439399"
+}, 
+"Tl1491857": {
+"^ot:altLabel": "Trebouxia impressa", 
+"^ot:originalLabel": "Trebouxia impressa Z21551", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 29333, 
+"@tb:identifier.taxonVariant": 68376, 
+"@ubio": "3527703", 
+"@uniprot": "13788"
+}
+}, 
+"Tl1491858": {
+"^ot:altLabel": "Chlorella sorokiniana", 
+"^ot:originalLabel": "Chlorella sorokiniana FM205860", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 5884, 
+"@tb:identifier.taxonVariant": 14241, 
+"@ubio": "1977136", 
+"@uniprot": "3076"
+}
+}, 
+"Tl1491859": {
+"^ot:originalLabel": "uncultured Trebouxiophyceae FJ790649", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 158393, 
+"@tb:identifier.taxonVariant": 782132
+}
+}, 
+"Tl1491860": {
+"^ot:originalLabel": "Stichococcus sp BCPSRS2 14 AY377441"
+}, 
+"Tl1491861": {
+"^ot:altLabel": "Paradoxia multiseta", 
+"^ot:originalLabel": "Paradoxia multiseta AY422078", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 224697, 
+"@tb:identifier.taxonVariant": 290135, 
+"@ubio": "5975540", 
+"@uniprot": "249350"
+}
+}, 
+"Tl1491862": {
+"^ot:altLabel": "Trebouxia jamesii", 
+"^ot:originalLabel": "Trebouxia jamesii Z68700", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 29335, 
+"@tb:identifier.taxonVariant": 68380, 
+"@ubio": "3527735", 
+"@uniprot": "53267"
+}
+}, 
+"Tl1491863": {
+"^ot:originalLabel": "Xylochloris irregularis EU105209"
+}, 
+"Tl1491864": {
+"^ot:originalLabel": "uncultured Trebouxiophyceae FJ790655", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 158393, 
+"@tb:identifier.taxonVariant": 782132
+}
+}, 
+"Tl1491865": {
+"^ot:originalLabel": "Ooplanctella planoconvexa FM881777"
+}, 
+"Tl1491866": {
+"^ot:altLabel": "Dicloster acuatus", 
+"^ot:originalLabel": "Dicloster acuatus AB037085", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 100417, 
+"@tb:identifier.taxonVariant": 179577, 
+"@ubio": "5958624", 
+"@uniprot": "91190"
+}
+}, 
+"Tl1491867": {
+"^ot:originalLabel": "Micractinium sp WJT8VFNP18 JX446467"
+}, 
+"Tl1491868": {
+"^ot:altLabel": "Pleurastrum insigne", 
+"^ot:originalLabel": "Pleurastrum insigne Z28972", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 22853, 
+"@tb:identifier.taxonVariant": 53261, 
+"@ubio": "3530824", 
+"@uniprot": "34115"
+}
+}, 
+"Tl1491869": {
+"^ot:altLabel": "Myrmecia biatorellae", 
+"^ot:originalLabel": "Myrmecia biatorellae Z28971", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 18589, 
+"@tb:identifier.taxonVariant": 43387, 
+"@ubio": "3532975", 
+"@uniprot": "34150"
+}
+}, 
+"Tl1491870": {
+"^ot:altLabel": "Eremosphaera viridis", 
+"^ot:originalLabel": "Eremosphaera viridis AF387154", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 155395, 
+"@tb:identifier.taxonVariant": 230771, 
+"@ubio": "2638438", 
+"@uniprot": "163307"
+}
+}, 
+"Tl1491871": {
+"^ot:originalLabel": "Chlorella sp UTEX 318 EF159951"
+}, 
+"Tl1491872": {
+"^ot:originalLabel": "Lobosphaera incisa AY762602"
+}, 
+"Tl1491873": {
+"^ot:originalLabel": "Parietochloris sp WJT66VFNP21 JX446476"
+}, 
+"Tl1491874": {
+"^ot:originalLabel": "Parietochloris sp WJT71VFNP8 JX446477"
+}, 
+"Tl1491875": {
+"^ot:originalLabel": "uncultured Xylochloris JQ988938"
+}, 
+"Tl1491876": {
+"^ot:altLabel": "Dictyosphaerium minutum", 
+"^ot:originalLabel": "Dictyosphaerium minutum CCAP222 3 FR865691", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 620880, 
+"@tb:identifier.taxonVariant": 831429, 
+"@ubio": "3530033"
+}
+}, 
+"Tl1491877": {
+"^ot:originalLabel": "Coccomyxa sp CPCC 508 AM981206"
+}, 
+"Tl1491878": {
+"^ot:altLabel": "Chlamydomonas bilatus", 
+"^ot:originalLabel": "Chlamydomonas bilatus AF517098", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 185370, 
+"@tb:identifier.taxonVariant": 257854, 
+"@ubio": "5970110", 
+"@uniprot": "201316"
+}
+}, 
+"Tl1491879": {
+"^ot:altLabel": "Chlorella minutissima", 
+"^ot:originalLabel": "Chlorella minutissima X56102", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 5880, 
+"@tb:identifier.taxonVariant": 14232, 
+"@ubio": "3869965", 
+"@uniprot": "3081"
+}
+}, 
+"Tl1491880": {
+"^ot:altLabel": "uncultured Chlorella", 
+"^ot:originalLabel": "uncultured Chlorella AM260450", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 229006, 
+"@tb:identifier.taxonVariant": 292449, 
+"@ubio": "10236810", 
+"@uniprot": "254346"
+}
+}, 
+"Tl1491881": {
+"^ot:originalLabel": "Xylochloris irregularis EU105208"
+}, 
+"Tl1491882": {
+"^ot:altLabel": "Elliptochloris bilobata", 
+"^ot:originalLabel": "Elliptochloris bilobata AM422984", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 333237, 
+"@tb:identifier.taxonVariant": 372923, 
+"@ubio": "3533007", 
+"@uniprot": "381761"
+}
+}, 
+"Tl1491883": {
+"^ot:altLabel": "Friedmannia israeliensis", 
+"^ot:originalLabel": "Friedmannia israeliensis M62995", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 50571, 
+"@tb:identifier.taxonVariant": 119865, 
+"@ubio": "5991099", 
+"@uniprot": "3171"
+}
+}, 
+"Tl1491884": {
+"^ot:originalLabel": "Eremochloris sphaerica SEV3VF38"
+}, 
+"Tl1491885": {
+"^ot:altLabel": "Coccomyxa solorinae saccatae", 
+"^ot:originalLabel": "Coccomyxa solorinae saccatae AM167525", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 624807, 
+"@tb:identifier.taxonVariant": 836664, 
+"@ubio": "3530640"
+}
+}, 
+"Tl1491886": {
+"^ot:originalLabel": "Chlorellaceae sp WJT36VFNP3 JX446470"
+}, 
+"Tl1491887": {
+"^ot:originalLabel": "Eremochloris sphaerica SEV5VF12"
+}, 
+"Tl1491888": {
+"^ot:originalLabel": "Choricystis chodatii FJ648512"
+}, 
+"Tl1491889": {
+"^ot:altLabel": "Chloromonas rosae", 
+"^ot:originalLabel": "Chloromonas rosae AF517090", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 37185, 
+"@tb:identifier.taxonVariant": 85967, 
+"@ubio": "5954658", 
+"@uniprot": "51731"
+}
+}, 
+"Tl1491890": {
+"^ot:altLabel": "Stichococcus chlorelloides", 
+"^ot:originalLabel": "Stichococcus chlorelloides AY271675", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 217281, 
+"@tb:identifier.taxonVariant": 284096, 
+"@ubio": "3533332", 
+"@uniprot": "240393"
+}
+}, 
+"Tl1491891": {
+"^ot:originalLabel": "Botryococcus sp AY197640"
+}, 
+"Tl1491892": {
+"^ot:altLabel": "Pseudococcomyxa simplex", 
+"^ot:originalLabel": "Pseudococcomyxa simplex FJ648514", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 441383, 
+"@tb:identifier.taxonVariant": 582569, 
+"@ubio": "3925494", 
+"@uniprot": "464287"
+}
+}, 
+"Tl1491893": {
+"^ot:originalLabel": "Heveochlorella roystonensis JN003601"
+}, 
+"Tl1491894": {
+"^ot:originalLabel": "Meyerella sp CNP1VF19"
+}, 
+"Tl1491895": {
+"^ot:altLabel": "Stichococcus jenerensis", 
+"^ot:originalLabel": "Stichococcus jenerensis DQ275461", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 313265, 
+"@tb:identifier.taxonVariant": 359216, 
+"@ubio": "10293547", 
+"@uniprot": "358140"
+}
+}, 
+"Tl1491896": {
+"^ot:originalLabel": "Chloropyrula sp EM2VF20"
+}, 
+"Tl1491897": {
+"^ot:altLabel": "Makinoella tosaensis", 
+"^ot:originalLabel": "Makinoella tosaensis AF228691", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 122762, 
+"@tb:identifier.taxonVariant": 200506, 
+"@ubio": "3535698", 
+"@uniprot": "120745"
+}
+}, 
+"Tl1491898": {
+"^ot:originalLabel": "Eremochloris sphaerica MX219VF19"
+}, 
+"Tl1491899": {
+"^ot:originalLabel": "Apatococcus lobatus FR693368"
+}, 
+"Tl1491900": {
+"^ot:altLabel": "Phyllosiphon arisari", 
+"^ot:originalLabel": "Phyllosiphon arisari JF304470", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 526601, 
+"@tb:identifier.taxonVariant": 698562, 
+"@ubio": "9759589", 
+"@uniprot": "634749"
+}
+}, 
+"Tl1491901": {
+"^ot:originalLabel": "Neocystis sp BC4VF20"
+}, 
+"Tl1491902": {
+"^ot:originalLabel": "uncultured Xylochloris JQ988940"
+}, 
+"Tl1491903": {
+"^ot:originalLabel": "Eremochloris sphaerica MX223VF4"
+}, 
+"Tl1491904": {
+"^ot:originalLabel": "Micractinium sp WJT9VFNP19 JX446469"
+}, 
+"Tl1491905": {
+"^ot:altLabel": "Elliptochloris subsphaerica", 
+"^ot:originalLabel": "Elliptochloris subsphaerica AB006050", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 80329, 
+"@tb:identifier.taxonVariant": 562481, 
+"@ubio": "9760365", 
+"@uniprot": "63684"
+}
+}, 
+"Tl1491906": {
+"^ot:altLabel": "Tetrachlorella alternans", 
+"^ot:originalLabel": "Tetrachlorella alternans AF228687", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 122767, 
+"@tb:identifier.taxonVariant": 200510, 
+"@ubio": "5961230", 
+"@uniprot": "120751"
+}
+}, 
+"Tl1491907": {
+"^ot:altLabel": "Picochlorum oklahomense", 
+"^ot:originalLabel": "Picochlorum oklahomense AY422073", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 224692, 
+"@tb:identifier.taxonVariant": 290125, 
+"@ubio": "5975538", 
+"@uniprot": "249345"
+}
+}, 
+"Tl1491908": {
+"^ot:altLabel": "Auxenochlorella protothecoides", 
+"^ot:originalLabel": "Auxenochlorella protothecoides X56101", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 623583, 
+"@tb:identifier.taxonVariant": 835040, 
+"@ubio": "3870903", 
+"@uniprot": "3075"
+}
+}, 
+"Tl1491909": {
+"^ot:altLabel": "Pleurastrum erumpens", 
+"^ot:originalLabel": "Pleurastrum erumpens Z68696", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 73280, 
+"@tb:identifier.taxonVariant": 149938, 
+"@ubio": "3309777", 
+"@uniprot": "53261"
+}, 
+"^skos:prefLabel": "Leptosira erumpens"
+}, 
+"Tl1491910": {
+"^ot:originalLabel": "Eremochloris sphaerica SEV5VF13"
+}, 
+"Tl1491911": {
+"^ot:originalLabel": "Heterochlorella luteoviridis X73998"
+}, 
+"Tl1491912": {
+"^ot:altLabel": "Parietochloris alveolaris", 
+"^ot:originalLabel": "Parietochloris alveolaris EU878373", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 504968, 
+"@tb:identifier.taxonVariant": 669098, 
+"@ubio": "3526575", 
+"@uniprot": "577484"
+}
+}, 
+"Tl1491913": {
+"^ot:originalLabel": "Chloroidium engadinense FM946011"
+}, 
+"Tl1491914": {
+"^ot:altLabel": "Chlorella vulgaris", 
+"^ot:originalLabel": "Chlorella vulgaris X13688", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 5886, 
+"@tb:identifier.taxonVariant": 14246, 
+"@ubio": "3869964", 
+"@uniprot": "3077"
+}
+}, 
+"Tl1491915": {
+"^ot:originalLabel": "Chlorellaceae sp WJT66VFNP53 JX446473"
+}, 
+"Tl1491916": {
+"^ot:altLabel": "Myrmecia bisecta", 
+"^ot:originalLabel": "Myrmecia bisecta Z47209", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 65307, 
+"@tb:identifier.taxonVariant": 140211, 
+"@ubio": "3307387", 
+"@uniprot": "41462"
+}
+}, 
+"Tl1491917": {
+"^ot:originalLabel": "Chloropyrula sp SV1VF1"
+}, 
+"Tl1491918": {
+"^ot:altLabel": "Prototheca wickerhamii", 
+"^ot:originalLabel": "Prototheca wickerhamii X56099", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 23900, 
+"@tb:identifier.taxonVariant": 55810, 
+"@ubio": "3184857", 
+"@uniprot": "3111"
+}
+}, 
+"Tl1491919": {
+"^ot:altLabel": "Stichococcus mirabilis", 
+"^ot:originalLabel": "Stichococcus mirabilis AJ311638", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 149160, 
+"@tb:identifier.taxonVariant": 224968, 
+"@ubio": "9761727", 
+"@uniprot": "154978"
+}
+}, 
+"Tl1491920": {
+"^ot:originalLabel": "Stichococcus sp WJT24VFNP30 JX446483"
+}, 
+"Tl1491921": {
+"^ot:altLabel": "Coenocystis inconstans", 
+"^ot:originalLabel": "Coenocystis inconstans AB017435", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 93454, 
+"@tb:identifier.taxonVariant": 172427, 
+"@ubio": "5991342", 
+"@uniprot": "82176"
+}
+}, 
+"Tl1491922": {
+"^ot:altLabel": "Koliella sempervirens", 
+"^ot:originalLabel": "Koliella sempervirens AF278743", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 148824, 
+"@tb:identifier.taxonVariant": 224651, 
+"@ubio": "3533342", 
+"@uniprot": "154508"
+}
+}, 
+"Tl1491923": {
+"^ot:altLabel": "Micractinium pusillum", 
+"^ot:originalLabel": "Micractinium pusillum AM231740", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 127335, 
+"@tb:identifier.taxonVariant": 204894, 
+"@ubio": "3870070", 
+"@uniprot": "126839"
+}
+}, 
+"Tl1491924": {
+"^ot:originalLabel": "Eremochloris sphaerica SRS2VF5"
+}, 
+"Tl1491925": {
+"^ot:originalLabel": "Kalinella apyrenoidosa CAUP H7902"
+}, 
+"Tl1491926": {
+"^ot:originalLabel": "Diplosphaera sp J4028B JN573864"
+}, 
+"Tl1491927": {
+"^ot:originalLabel": "Lobosphaera sp HQ902935"
+}, 
+"Tl1491928": {
+"^ot:originalLabel": "Xylochloris sp SAG 2382 JQ988942"
+}, 
+"Tl1491929": {
+"^ot:originalLabel": "Eremochloris sphaerica MX219VF22"
+}, 
+"Tl1491930": {
+"^ot:originalLabel": "Leptochlorella CAUP H8401"
+}, 
+"Tl1491931": {
+"^ot:originalLabel": "Watanabea sp MSC 1 EU090195"
+}, 
+"Tl1491932": {
+"^ot:originalLabel": "Fusochloris perforatum M62999"
+}, 
+"Tl1491933": {
+"^ot:originalLabel": "Heterochlorella luteoviridis AB006045"
+}, 
+"Tl1491934": {
+"^ot:altLabel": "Gloeocystis polydermatica", 
+"^ot:originalLabel": "Gloeocystis polydermatica FR865740", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 620881, 
+"@tb:identifier.taxonVariant": 831430, 
+"@ubio": "3530045"
+}
+}, 
+"Tl1491935": {
+"^ot:originalLabel": "Chlorella sp BC4VF9"
+}, 
+"Tl1491936": {
+"^ot:originalLabel": "Trebouxiophyceae sp WJT71VFNP22 JX446487"
+}, 
+"Tl1491937": {
+"^ot:altLabel": "Dictyochloropsis splendida", 
+"^ot:originalLabel": "Dictyochloropsis splendida GU017665", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 361324, 
+"@tb:identifier.taxonVariant": 389469, 
+"@ubio": "3925480", 
+"@uniprot": "415184"
+}
+}, 
+"Tl1491938": {
+"^ot:altLabel": "Parietochloris cohaerens", 
+"^ot:originalLabel": "Parietochloris cohaerens EU878372", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 504969, 
+"@tb:identifier.taxonVariant": 669102, 
+"@ubio": "3526576", 
+"@uniprot": "577485"
+}
+}, 
+"Tl1491939": {
+"^ot:originalLabel": "Eremochloris sphaerica MX219VF25"
+}, 
+"Tl1491940": {
+"^ot:originalLabel": "Dunaliellaceae sp EF023670"
+}, 
+"Tl1491941": {
+"^ot:originalLabel": "Trebouxiophyceae sp WJT2VFNP25 JX446485"
+}, 
+"Tl1491942": {
+"^ot:originalLabel": "Eremochloris sphaerica MX227VF18"
+}, 
+"Tl1491943": {
+"^ot:altLabel": "Viridiella fridericiana", 
+"^ot:originalLabel": "Viridiella fridericiana AJ439401", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 176365, 
+"@tb:identifier.taxonVariant": 250042, 
+"@ubio": "3322777", 
+"@uniprot": "190057"
+}
+}, 
+"Tl1491944": {
+"^ot:originalLabel": "Parietochloris sp WJT8VFNP40 JX446475"
+}, 
+"Tl1491945": {
+"^ot:altLabel": "Microthamnion kuetzingianum", 
+"^ot:originalLabel": "Microthamnion kuetzingianum Z28974", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 17773, 
+"@tb:identifier.taxonVariant": 41585, 
+"@ubio": "5953224", 
+"@uniprot": "34148"
+}
+}, 
+"Tl1491946": {
+"^ot:originalLabel": "Chlorellaceae sp WJT4VFNP1 JX446464"
+}, 
+"Tl1491947": {
+"^ot:altLabel": "Parachlorella beijerinckii", 
+"^ot:originalLabel": "Parachlorella beijerinckii AY323841", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 223150, 
+"@tb:identifier.taxonVariant": 288865, 
+"@ubio": "5975445", 
+"@uniprot": "247502"
+}
+}, 
+"Tl1491948": {
+"^ot:originalLabel": "Myrmecia sp BC8 8 AF516674"
+}, 
+"Tl1491949": {
+"^ot:altLabel": "Oocystis heteromucosa", 
+"^ot:originalLabel": "Oocystis heteromucosa AF228689", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 122764, 
+"@tb:identifier.taxonVariant": 200507, 
+"@ubio": "5961229", 
+"@uniprot": "120747"
+}
+}, 
+"Tl1491950": {
+"^ot:altLabel": "Desmococcus endolithicus", 
+"^ot:originalLabel": "Desmococcus endolithicus EU434026", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 174230, 
+"@tb:identifier.taxonVariant": 248098, 
+"@ubio": "3309546", 
+"@uniprot": "187458"
+}
+}, 
+"Tl1491951": {
+"^ot:originalLabel": "Chloroidium angustoellipsoideum FM946019"
+}, 
+"Tl1491952": {
+"^ot:originalLabel": "Trebouxiophyceae sp WJT71VFNP21 JX446489"
+}, 
+"Tl1491953": {
+"^ot:originalLabel": "Leptochlorella sp EE84"
+}, 
+"Tl1491954": {
+"^ot:altLabel": "Micractinium pusillum", 
+"^ot:originalLabel": "Micractinium pusillum AF499921", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 127335, 
+"@tb:identifier.taxonVariant": 204894, 
+"@ubio": "3870070", 
+"@uniprot": "126839"
+}
+}, 
+"Tl1491955": {
+"^ot:originalLabel": "Myrmecia sp WJT36VFNP19 JX446480"
+}, 
+"Tl1491956": {
+"^ot:altLabel": "Choricystis minor", 
+"^ot:originalLabel": "Choricystis minor X89012", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 5954, 
+"@tb:identifier.taxonVariant": 14400, 
+"@ubio": "3527696", 
+"@uniprot": "41300"
+}
+}, 
+"Tl1491957": {
+"^ot:originalLabel": "Chloroidium ellipsoideum FM946012"
+}, 
+"Tl1491958": {
+"^ot:originalLabel": "Planctonema sp M110 1 AF387148"
+}, 
+"Tl1491959": {
+"^ot:altLabel": "Elliptochloris subsphaerica", 
+"^ot:originalLabel": "Elliptochloris subsphaerica FJ648518", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 80329, 
+"@tb:identifier.taxonVariant": 562481, 
+"@ubio": "9760365", 
+"@uniprot": "63684"
+}
+}, 
+"Tl1491960": {
+"^ot:altLabel": "Chlorella sorokiniana", 
+"^ot:originalLabel": "Chlorella sorokiniana X73993", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 5884, 
+"@tb:identifier.taxonVariant": 14241, 
+"@ubio": "1977136", 
+"@uniprot": "3076"
+}
+}, 
+"Tl1491961": {
+"^ot:altLabel": "Leptosira terrestris", 
+"^ot:originalLabel": "Leptosira terrestris Z28973", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 60395, 
+"@tb:identifier.taxonVariant": 133877, 
+"@ubio": "3530309", 
+"@uniprot": "34116"
+}
+}, 
+"Tl1491962": {
+"^ot:originalLabel": "Pseudochlorella pringsheimii EF113427"
+}, 
+"Tl1491963": {
+"^ot:originalLabel": "Chloroidium ellipsoideum EU038287"
+}, 
+"Tl1491964": {
+"^ot:altLabel": "Myrmecia biatorellae", 
+"^ot:originalLabel": "Myrmecia biatorellae AF499685", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 18589, 
+"@tb:identifier.taxonVariant": 43387, 
+"@ubio": "3532975", 
+"@uniprot": "34150"
+}
+}, 
+"Tl1491965": {
+"^ot:altLabel": "Dictyochloropsis splendida", 
+"^ot:originalLabel": "Dictyochloropsis splendida EF113435", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 361324, 
+"@tb:identifier.taxonVariant": 389469, 
+"@ubio": "3925480", 
+"@uniprot": "415184"
+}
+}, 
+"Tl1491966": {
+"^ot:originalLabel": "Heterochlorella luteoviridis CAUP H1906"
+}, 
+"Tl1491967": {
+"^ot:altLabel": "Closteriopsis acicularis", 
+"^ot:originalLabel": "Closteriopsis acicularis EF113433", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 93425, 
+"@tb:identifier.taxonVariant": 172397, 
+"@ubio": "3925703", 
+"@uniprot": "82138"
+}
+}, 
+"Tl1491968": {
+"^ot:altLabel": "Microthamnion kuetzingianum", 
+"^ot:originalLabel": "Microthamnion kuetzingianum EF589152", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 17773, 
+"@tb:identifier.taxonVariant": 41585, 
+"@ubio": "5953224", 
+"@uniprot": "34148"
+}
+}, 
+"Tl1491969": {
+"^ot:originalLabel": "Planctonema sp EF113463"
+}, 
+"Tl1491970": {
+"^ot:altLabel": "Trebouxia anticipata", 
+"^ot:originalLabel": "Trebouxia anticipata AF189069", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 133899, 
+"@tb:identifier.taxonVariant": 210729, 
+"@ubio": "5962746", 
+"@uniprot": "135270"
+}
+}, 
+"Tl1491971": {
+"^ot:originalLabel": "Chlorella variabilis AB260904"
+}, 
+"Tl1491972": {
+"^ot:originalLabel": "Meyerella planktonica AY543048", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 202417, 
+"@tb:identifier.taxonVariant": 782498
+}
+}, 
+"Tl1491973": {
+"^ot:altLabel": "Radiofilum conjunctivum", 
+"^ot:originalLabel": "Radiofilum conjunctivum EF113467", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 155411, 
+"@tb:identifier.taxonVariant": 230781, 
+"@ubio": "3870100", 
+"@uniprot": "163323"
+}
+}, 
+"Tl1491974": {
+"^ot:altLabel": "Auxenochlorella protothecoides", 
+"^ot:originalLabel": "Auxenochlorella protothecoides AM260440", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 623583, 
+"@tb:identifier.taxonVariant": 835040, 
+"@ubio": "3870903", 
+"@uniprot": "3075"
+}
+}, 
+"Tl1491975": {
+"^ot:altLabel": "Pseudococcomyxa simplex", 
+"^ot:originalLabel": "Pseudococcomyxa simplex HM754405", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 441383, 
+"@tb:identifier.taxonVariant": 582569, 
+"@ubio": "3925494", 
+"@uniprot": "464287"
+}
+}, 
+"Tl1491976": {
+"^ot:originalLabel": "Lobosphaera sp CCAP221 8"
+}, 
+"Tl1491977": {
+"^ot:altLabel": "Botryococcus braunii", 
+"^ot:originalLabel": "Botryococcus braunii GU951521", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 615793, 
+"@tb:identifier.taxonVariant": 823456, 
+"@ubio": "3870066", 
+"@uniprot": "38881"
+}
+}, 
+"Tl1491978": {
+"^ot:altLabel": "Myrmecia israelensis", 
+"^ot:originalLabel": "Myrmecia israelensis UTEX1181 EF113453", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 361332, 
+"@tb:identifier.taxonVariant": 389481, 
+"@ubio": "3309716", 
+"@uniprot": "415195"
+}
+}, 
+"Tl1491979": {
+"^ot:originalLabel": "Xylochloris irregularis CAUP H7801"
+}, 
+"Tl1491980": {
+"^ot:altLabel": "Chlorella sorokiniana", 
+"^ot:originalLabel": "Chlorella sorokiniana HM101339", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 5884, 
+"@tb:identifier.taxonVariant": 14241, 
+"@ubio": "1977136", 
+"@uniprot": "3076"
+}
+}, 
+"Tl1491981": {
+"^ot:originalLabel": "Kalinella bambusicola CAUP H7901"
+}, 
+"Tl1491982": {
+"^ot:altLabel": "Chlamydomonas bilatus", 
+"^ot:originalLabel": "Chlamydomonas bilatus AF517082", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 185370, 
+"@tb:identifier.taxonVariant": 257854, 
+"@ubio": "5970110", 
+"@uniprot": "201316"
+}
+}, 
+"Tl1491983": {
+"^ot:altLabel": "Pleurastrum erumpens", 
+"^ot:originalLabel": "Pleurastrum erumpens AF189068", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 73280, 
+"@tb:identifier.taxonVariant": 149938, 
+"@ubio": "3309777", 
+"@uniprot": "53261"
+}, 
+"^skos:prefLabel": "Leptosira erumpens"
+}, 
+"Tl1491984": {
+"^ot:altLabel": "Chlorella vulgaris", 
+"^ot:originalLabel": "Chlorella vulgaris AF499684", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 5886, 
+"@tb:identifier.taxonVariant": 14246, 
+"@ubio": "3869964", 
+"@uniprot": "3077"
+}
+}, 
+"Tl1491985": {
+"^ot:altLabel": "Elliptochloris bilobata", 
+"^ot:originalLabel": "Elliptochloris bilobata FJ217379", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 333237, 
+"@tb:identifier.taxonVariant": 372923, 
+"@ubio": "3533007", 
+"@uniprot": "381761"
+}
+}, 
+"Tl1491986": {
+"^ot:originalLabel": "Asterochloris sp JN573844"
+}, 
+"Tl1491987": {
+"^ot:originalLabel": "Parachloroidium lobatum HF586464"
+}, 
+"Tl1491988": {
+"^ot:altLabel": "Stichococcus bacillaris", 
+"^ot:originalLabel": "Stichococcus bacillaris SAG379 1b AM260442", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 28004, 
+"@tb:identifier.taxonVariant": 65357, 
+"@ubio": "5953403", 
+"@uniprot": "37433"
+}
+}, 
+"Tl1491989": {
+"^ot:originalLabel": "Diplosphaera sp JN573845"
+}, 
+"Tl1491990": {
+"^ot:altLabel": "Planctonema lauterbornii", 
+"^ot:originalLabel": "Planctonema lauterbornii EF113462", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 361330, 
+"@tb:identifier.taxonVariant": 389478, 
+"@ubio": "3870098", 
+"@uniprot": "415190"
+}
+}, 
+"Tl1491991": {
+"^ot:altLabel": "Geminella minor", 
+"^ot:originalLabel": "Geminella minor EF113440", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 155397, 
+"@tb:identifier.taxonVariant": 436982, 
+"@ubio": "3870104", 
+"@uniprot": "163309"
+}
+}, 
+"Tl1491992": {
+"^ot:altLabel": "Prasiola crispa", 
+"^ot:originalLabel": "Prasiola crispa SAG4396 AM260441", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 23529, 
+"@tb:identifier.taxonVariant": 55082, 
+"@ubio": "3904557", 
+"@uniprot": "173492"
+}
+}, 
+"Tl1491993": {
+"^ot:altLabel": "Coccomyxa chodatii", 
+"^ot:originalLabel": "Coccomyxa chodatii FJ217383", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 219483, 
+"@tb:identifier.taxonVariant": 286006, 
+"@ubio": "5974796", 
+"@uniprot": "243131"
+}
+}, 
+"Tl1491994": {
+"^ot:altLabel": "Oocystis solitaria", 
+"^ot:originalLabel": "Oocystis solitaria EF113459", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 19621, 
+"@tb:identifier.taxonVariant": 45679, 
+"@ubio": "3869973", 
+"@uniprot": "120749"
+}
+}, 
+"Tl1491995": {
+"^ot:originalLabel": "Trebouxia sp JN573828"
+}, 
+"Tl1491996": {
+"^ot:altLabel": "Choricystis minor", 
+"^ot:originalLabel": "Choricystis minor DQ219818", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 5954, 
+"@tb:identifier.taxonVariant": 14400, 
+"@ubio": "3527696", 
+"@uniprot": "41300"
+}
+}, 
+"Tl1491997": {
+"^ot:altLabel": "Choricystis minor", 
+"^ot:originalLabel": "Choricystis minor EF012703", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 5954, 
+"@tb:identifier.taxonVariant": 14400, 
+"@ubio": "3527696", 
+"@uniprot": "41300"
+}
+}, 
+"Tl1491998": {
+"^ot:altLabel": "Gloeotila contorta", 
+"^ot:originalLabel": "Gloeotila contorta EF113444", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 224690, 
+"@tb:identifier.taxonVariant": 290122, 
+"@ubio": "3307621", 
+"@uniprot": "249343"
+}
+}, 
+"Tl1491999": {
+"^ot:altLabel": "Fusochloris perforata", 
+"^ot:originalLabel": "Fusochloris perforata EF113438", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 11597, 
+"@tb:identifier.taxonVariant": 27654, 
+"@ubio": "5991401", 
+"@uniprot": "106203"
+}
+}, 
+"Tl1492000": {
+"^ot:originalLabel": "Elliptochloris sp JF913539"
+}, 
+"Tl1492001": {
+"^ot:originalLabel": "Asterochloris sp JN573806"
+}, 
+"Tl1492002": {
+"^ot:altLabel": "Leptosira terrestris", 
+"^ot:originalLabel": "Leptosira terrestris AM260448", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 60395, 
+"@tb:identifier.taxonVariant": 133877, 
+"@ubio": "3530309", 
+"@uniprot": "34116"
+}
+}, 
+"Tl1492003": {
+"^ot:originalLabel": "Leptochlorella corticola CAUP H8401"
+}, 
+"Tl1492004": {
+"^ot:originalLabel": "Botryococcus sp JN399235"
+}, 
+"Tl1492005": {
+"^ot:altLabel": "Chloromonas rosae", 
+"^ot:originalLabel": "Chloromonas rosae AB022532", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 37185, 
+"@tb:identifier.taxonVariant": 85967, 
+"@ubio": "5954658", 
+"@uniprot": "51731"
+}
+}, 
+"Tl1492006": {
+"^ot:altLabel": "Pleurastrum insigne", 
+"^ot:originalLabel": "Pleurastrum insigne EF113464", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 22853, 
+"@tb:identifier.taxonVariant": 53261, 
+"@ubio": "3530824", 
+"@uniprot": "34115"
+}
+}, 
+"Tl1492007": {
+"^ot:altLabel": "Parachlorella kessleri", 
+"^ot:originalLabel": "Parachlorella kessleri NC012978", 
+"^ot:taxonLink": {
+"@tb:identifier.taxon": 5878, 
+"@tb:identifier.taxonVariant": 113112, 
+"@ubio": "5952255", 
+"@uniprot": "3074"
+}
+}
+}
+}
+}, 
+"treesById": {
+"Tb25676": {
+"@label": "Trebouxiophyceae 18S", 
+"@otus": "Tls37511", 
+"^ot:treeElementOrder": [
+"Tr75036"
+], 
+"^skos:historyNote": "Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlTreeBlockWriter@5d0e068a $Rev: 1040 $", 
+"treeById": {
+"Tr75036": {
+"@label": "rbcLbestMLtree", 
+"@xsi:type": "nex:FloatTree", 
+"^ot:rootNodeId": "Tn11681071", 
+"^tb:ntax.tree": 62, 
+"edgeBySourceId": {
+"Tn11680998": {
+"edge38862": {
+"@length": 0.02622226, 
+"@source": "Tn11680998", 
+"@target": "Tn11681042"
+}, 
+"edge38864": {
+"@length": 0.04796416, 
+"@source": "Tn11680998", 
+"@target": "Tn11681061"
+}
+}, 
+"Tn11681000": {
+"edge38952": {
+"@length": 0.10325307, 
+"@source": "Tn11681000", 
+"@target": "Tn11681017"
+}, 
+"edge38958": {
+"@length": 0.07366949, 
+"@source": "Tn11681000", 
+"@target": "Tn11681010"
+}
+}, 
+"Tn11681003": {
+"edge38830": {
+"@length": 0.14817198, 
+"@source": "Tn11681003", 
+"@target": "Tn11681099"
+}, 
+"edge38832": {
+"@length": 0.07459873, 
+"@source": "Tn11681003", 
+"@target": "Tn11681102"
+}
+}, 
+"Tn11681006": {
+"edge38788": {
+"@length": 0.03666213, 
+"@source": "Tn11681006", 
+"@target": "Tn11681087"
+}, 
+"edge38794": {
+"@length": 0.06200072, 
+"@source": "Tn11681006", 
+"@target": "Tn11681066"
+}
+}, 
+"Tn11681009": {
+"edge38802": {
+"@length": 0.13100644, 
+"@source": "Tn11681009", 
+"@target": "Tn11681022"
+}, 
+"edge38804": {
+"@length": 0.06238779, 
+"@source": "Tn11681009", 
+"@target": "Tn11681058"
+}
+}, 
+"Tn11681010": {
+"edge38960": {
+"@length": 0.04001554, 
+"@source": "Tn11681010", 
+"@target": "Tn11681015"
+}, 
+"edge38962": {
+"@length": 0.04873963, 
+"@source": "Tn11681010", 
+"@target": "Tn11681062"
+}
+}, 
+"Tn11681012": {
+"edge38822": {
+"@length": 0.01395058, 
+"@source": "Tn11681012", 
+"@target": "Tn11681076"
+}, 
+"edge38824": {
+"@length": 0.01360325, 
+"@source": "Tn11681012", 
+"@target": "Tn11681007"
+}
+}, 
+"Tn11681013": {
+"edge38934": {
+"@length": 0.15701076, 
+"@source": "Tn11681013", 
+"@target": "Tn11681023"
+}, 
+"edge38944": {
+"@length": 0.00936541, 
+"@source": "Tn11681013", 
+"@target": "Tn11681085"
+}
+}, 
+"Tn11681017": {
+"edge38954": {
+"@length": 0.01045203, 
+"@source": "Tn11681017", 
+"@target": "Tn11681020"
+}, 
+"edge38956": {
+"@length": 0.00737699, 
+"@source": "Tn11681017", 
+"@target": "Tn11681047"
+}
+}, 
+"Tn11681019": {
+"edge38784": {
+"@length": 0.05191346, 
+"@source": "Tn11681019", 
+"@target": "Tn11681112"
+}, 
+"edge38810": {
+"@length": 0.0216278, 
+"@source": "Tn11681019", 
+"@target": "Tn11681074"
+}
+}, 
+"Tn11681023": {
+"edge38936": {
+"@length": 1e-08, 
+"@source": "Tn11681023", 
+"@target": "Tn11681065"
+}, 
+"edge38938": {
+"@length": 0.00335458, 
+"@source": "Tn11681023", 
+"@target": "Tn11681103"
+}
+}, 
+"Tn11681024": {
+"edge38998": {
+"@length": 0.03230844, 
+"@source": "Tn11681024", 
+"@target": "Tn11681043"
+}, 
+"edge39008": {
+"@length": 0.10924279, 
+"@source": "Tn11681024", 
+"@target": "Tn11681089"
+}
+}, 
+"Tn11681025": {
+"edge38910": {
+"@length": 0.06763407, 
+"@source": "Tn11681025", 
+"@target": "Tn11681018"
+}, 
+"edge38912": {
+"@length": 0.13857768, 
+"@source": "Tn11681025", 
+"@target": "Tn11681027"
+}
+}, 
+"Tn11681030": {
+"edge38976": {
+"@length": 0.02994546, 
+"@source": "Tn11681030", 
+"@target": "Tn11681097"
+}, 
+"edge38986": {
+"@length": 0.05443883, 
+"@source": "Tn11681030", 
+"@target": "Tn11681082"
+}
+}, 
+"Tn11681031": {
+"edge38886": {
+"@length": 0.02728178, 
+"@source": "Tn11681031", 
+"@target": "Tn11681035"
+}, 
+"edge38900": {
+"@length": 0.01706387, 
+"@source": "Tn11681031", 
+"@target": "Tn11681081"
+}
+}, 
+"Tn11681033": {
+"edge38870": {
+"@length": 0.01932867, 
+"@source": "Tn11681033", 
+"@target": "Tn11681090"
+}, 
+"edge38876": {
+"@length": 0.07654989, 
+"@source": "Tn11681033", 
+"@target": "Tn11681117"
+}
+}, 
+"Tn11681035": {
+"edge38888": {
+"@length": 0.06188651, 
+"@source": "Tn11681035", 
+"@target": "Tn11681064"
+}, 
+"edge38894": {
+"@length": 0.1781189, 
+"@source": "Tn11681035", 
+"@target": "Tn11681072"
+}
+}, 
+"Tn11681037": {
+"edge38860": {
+"@length": 0.02361422, 
+"@source": "Tn11681037", 
+"@target": "Tn11680998"
+}, 
+"edge38866": {
+"@length": 0.03551204, 
+"@source": "Tn11681037", 
+"@target": "Tn11681001"
+}
+}, 
+"Tn11681038": {
+"edge38980": {
+"@length": 0.00441322, 
+"@source": "Tn11681038", 
+"@target": "Tn11681110"
+}, 
+"edge38982": {
+"@length": 0.02119466, 
+"@source": "Tn11681038", 
+"@target": "Tn11681026"
+}
+}, 
+"Tn11681041": {
+"edge38848": {
+"@length": 0.02545011, 
+"@source": "Tn11681041", 
+"@target": "Tn11681098"
+}, 
+"edge38858": {
+"@length": 0.02776228, 
+"@source": "Tn11681041", 
+"@target": "Tn11681037"
+}
+}, 
+"Tn11681043": {
+"edge39000": {
+"@length": 0.13984621, 
+"@source": "Tn11681043", 
+"@target": "Tn11681005"
+}, 
+"edge39002": {
+"@length": 0.03542139, 
+"@source": "Tn11681043", 
+"@target": "Tn11681088"
+}
+}, 
+"Tn11681044": {
+"edge38846": {
+"@length": 0.01248276, 
+"@source": "Tn11681044", 
+"@target": "Tn11681041"
+}, 
+"edge38868": {
+"@length": 0.01354141, 
+"@source": "Tn11681044", 
+"@target": "Tn11681033"
+}
+}, 
+"Tn11681046": {
+"edge38820": {
+"@length": 0.0985785, 
+"@source": "Tn11681046", 
+"@target": "Tn11681012"
+}, 
+"edge38826": {
+"@length": 0.02984364, 
+"@source": "Tn11681046", 
+"@target": "Tn11681052"
+}
+}, 
+"Tn11681050": {
+"edge38928": {
+"@length": 0.00709363, 
+"@source": "Tn11681050", 
+"@target": "Tn11681068"
+}, 
+"edge39010": {
+"@length": 0.09446676, 
+"@source": "Tn11681050", 
+"@target": "Tn11681100"
+}
+}, 
+"Tn11681051": {
+"edge38778": {
+"@length": 0.01232036, 
+"@source": "Tn11681051", 
+"@target": "Tn11681039"
+}, 
+"edge38780": {
+"@length": 0.00237136, 
+"@source": "Tn11681051", 
+"@target": "Tn11681049"
+}
+}, 
+"Tn11681052": {
+"edge38828": {
+"@length": 0.09349511, 
+"@source": "Tn11681052", 
+"@target": "Tn11681003"
+}, 
+"edge38834": {
+"@length": 0.12194309, 
+"@source": "Tn11681052", 
+"@target": "Tn11681114"
+}
+}, 
+"Tn11681054": {
+"edge38916": {
+"@length": 0.00359709, 
+"@source": "Tn11681054", 
+"@target": "Tn11681034"
+}, 
+"edge38918": {
+"@length": 0.00419948, 
+"@source": "Tn11681054", 
+"@target": "Tn11681011"
+}
+}, 
+"Tn11681058": {
+"edge38806": {
+"@length": 0.05878559, 
+"@source": "Tn11681058", 
+"@target": "Tn11681040"
+}, 
+"edge38808": {
+"@length": 0.05856485, 
+"@source": "Tn11681058", 
+"@target": "Tn11681055"
+}
+}, 
+"Tn11681064": {
+"edge38890": {
+"@length": 0.09972068, 
+"@source": "Tn11681064", 
+"@target": "Tn11681057"
+}, 
+"edge38892": {
+"@length": 0.11205732, 
+"@source": "Tn11681064", 
+"@target": "Tn11681095"
+}
+}, 
+"Tn11681066": {
+"edge38796": {
+"@length": 0.12701511, 
+"@source": "Tn11681066", 
+"@target": "Tn11681070"
+}, 
+"edge38798": {
+"@length": 0.10241037, 
+"@source": "Tn11681066", 
+"@target": "Tn11681109"
+}
+}, 
+"Tn11681068": {
+"edge38930": {
+"@length": 0.01094042, 
+"@source": "Tn11681068", 
+"@target": "Tn11681092"
+}, 
+"edge38996": {
+"@length": 0.03818489, 
+"@source": "Tn11681068", 
+"@target": "Tn11681024"
+}
+}, 
+"Tn11681071": {
+"edge38774": {
+"@length": 0.01022264, 
+"@source": "Tn11681071", 
+"@target": "Tn11681073"
+}, 
+"edge38840": {
+"@length": 0.02814188, 
+"@source": "Tn11681071", 
+"@target": "Tn11681080"
+}, 
+"edge38882": {
+"@length": 0.01861399, 
+"@source": "Tn11681071", 
+"@target": "Tn11681118"
+}
+}, 
+"Tn11681072": {
+"edge38896": {
+"@length": 1e-08, 
+"@source": "Tn11681072", 
+"@target": "Tn11681032"
+}, 
+"edge38898": {
+"@length": 1e-08, 
+"@source": "Tn11681072", 
+"@target": "Tn11681028"
+}
+}, 
+"Tn11681073": {
+"edge38776": {
+"@length": 0.16110401, 
+"@source": "Tn11681073", 
+"@target": "Tn11681051"
+}, 
+"edge38782": {
+"@length": 0.02475009, 
+"@source": "Tn11681073", 
+"@target": "Tn11681019"
+}
+}, 
+"Tn11681074": {
+"edge38812": {
+"@length": 0.0252841, 
+"@source": "Tn11681074", 
+"@target": "Tn11681079"
+}, 
+"edge38818": {
+"@length": 0.01909728, 
+"@source": "Tn11681074", 
+"@target": "Tn11681046"
+}
+}, 
+"Tn11681075": {
+"edge38922": {
+"@length": 0.14194919, 
+"@source": "Tn11681075", 
+"@target": "Tn11681045"
+}, 
+"edge38924": {
+"@length": 0.16749697, 
+"@source": "Tn11681075", 
+"@target": "Tn11681048"
+}
+}, 
+"Tn11681078": {
+"edge38854": {
+"@length": 1e-08, 
+"@source": "Tn11681078", 
+"@target": "Tn11681008"
+}, 
+"edge38856": {
+"@length": 1e-08, 
+"@source": "Tn11681078", 
+"@target": "Tn11681014"
+}
+}, 
+"Tn11681079": {
+"edge38814": {
+"@length": 0.13806817, 
+"@source": "Tn11681079", 
+"@target": "Tn11681021"
+}, 
+"edge38816": {
+"@length": 0.23432784, 
+"@source": "Tn11681079", 
+"@target": "Tn11681105"
+}
+}, 
+"Tn11681080": {
+"edge38842": {
+"@length": 0.16385982, 
+"@source": "Tn11681080", 
+"@target": "Tn11681053"
+}, 
+"edge38844": {
+"@length": 0.01432912, 
+"@source": "Tn11681080", 
+"@target": "Tn11681044"
+}
+}, 
+"Tn11681081": {
+"edge38902": {
+"@length": 0.03121537, 
+"@source": "Tn11681081", 
+"@target": "Tn11681119"
+}, 
+"edge38920": {
+"@length": 0.02290329, 
+"@source": "Tn11681081", 
+"@target": "Tn11681075"
+}
+}, 
+"Tn11681082": {
+"edge38988": {
+"@length": 0.09983643, 
+"@source": "Tn11681082", 
+"@target": "Tn11681116"
+}, 
+"edge38990": {
+"@length": 0.08377109, 
+"@source": "Tn11681082", 
+"@target": "Tn11681096"
+}
+}, 
+"Tn11681085": {
+"edge38946": {
+"@length": 0.20024068, 
+"@source": "Tn11681085", 
+"@target": "Tn11681101"
+}, 
+"edge38948": {
+"@length": 0.01224216, 
+"@source": "Tn11681085", 
+"@target": "Tn11681091"
+}
+}, 
+"Tn11681087": {
+"edge38790": {
+"@length": 0.118502, 
+"@source": "Tn11681087", 
+"@target": "Tn11681069"
+}, 
+"edge38792": {
+"@length": 0.12083165, 
+"@source": "Tn11681087", 
+"@target": "Tn11681002"
+}
+}, 
+"Tn11681088": {
+"edge39004": {
+"@length": 0.13821046, 
+"@source": "Tn11681088", 
+"@target": "Tn11681093"
+}, 
+"edge39006": {
+"@length": 0.168192, 
+"@source": "Tn11681088", 
+"@target": "Tn11681077"
+}
+}, 
+"Tn11681090": {
+"edge38872": {
+"@length": 0.07711461, 
+"@source": "Tn11681090", 
+"@target": "Tn11681094"
+}, 
+"edge38874": {
+"@length": 0.05289876, 
+"@source": "Tn11681090", 
+"@target": "Tn11680999"
+}
+}, 
+"Tn11681091": {
+"edge38950": {
+"@length": 0.01709273, 
+"@source": "Tn11681091", 
+"@target": "Tn11681000"
+}, 
+"edge38964": {
+"@length": 0.0586615, 
+"@source": "Tn11681091", 
+"@target": "Tn11681106"
+}
+}, 
+"Tn11681092": {
+"edge38932": {
+"@length": 0.01496238, 
+"@source": "Tn11681092", 
+"@target": "Tn11681013"
+}, 
+"edge38974": {
+"@length": 0.025268, 
+"@source": "Tn11681092", 
+"@target": "Tn11681030"
+}
+}, 
+"Tn11681096": {
+"edge38992": {
+"@length": 0.09543869, 
+"@source": "Tn11681096", 
+"@target": "Tn11681108"
+}, 
+"edge38994": {
+"@length": 0.11061153, 
+"@source": "Tn11681096", 
+"@target": "Tn11681083"
+}
+}, 
+"Tn11681097": {
+"edge38978": {
+"@length": 0.09251624, 
+"@source": "Tn11681097", 
+"@target": "Tn11681038"
+}, 
+"edge38984": {
+"@length": 0.13540042, 
+"@source": "Tn11681097", 
+"@target": "Tn11681060"
+}
+}, 
+"Tn11681098": {
+"edge38850": {
+"@length": 0.0527264, 
+"@source": "Tn11681098", 
+"@target": "Tn11681067"
+}, 
+"edge38852": {
+"@length": 0.09756547, 
+"@source": "Tn11681098", 
+"@target": "Tn11681078"
+}
+}, 
+"Tn11681100": {
+"edge39012": {
+"@length": 0.04294314, 
+"@source": "Tn11681100", 
+"@target": "Tn11681113"
+}, 
+"edge39014": {
+"@length": 0.05460594, 
+"@source": "Tn11681100", 
+"@target": "Tn11681029"
+}
+}, 
+"Tn11681103": {
+"edge38940": {
+"@length": 1e-08, 
+"@source": "Tn11681103", 
+"@target": "Tn11681084"
+}, 
+"edge38942": {
+"@length": 1e-08, 
+"@source": "Tn11681103", 
+"@target": "Tn11681111"
+}
+}, 
+"Tn11681104": {
+"edge38968": {
+"@length": 0.00189331, 
+"@source": "Tn11681104", 
+"@target": "Tn11681059"
+}, 
+"edge38970": {
+"@length": 1e-08, 
+"@source": "Tn11681104", 
+"@target": "Tn11681036"
+}
+}, 
+"Tn11681106": {
+"edge38966": {
+"@length": 0.0304286, 
+"@source": "Tn11681106", 
+"@target": "Tn11681104"
+}, 
+"edge38972": {
+"@length": 0.0325791, 
+"@source": "Tn11681106", 
+"@target": "Tn11681004"
+}
+}, 
+"Tn11681112": {
+"edge38786": {
+"@length": 0.01793003, 
+"@source": "Tn11681112", 
+"@target": "Tn11681006"
+}, 
+"edge38800": {
+"@length": 0.02914165, 
+"@source": "Tn11681112", 
+"@target": "Tn11681009"
+}
+}, 
+"Tn11681114": {
+"edge38836": {
+"@length": 0.05255061, 
+"@source": "Tn11681114", 
+"@target": "Tn11681107"
+}, 
+"edge38838": {
+"@length": 0.06201216, 
+"@source": "Tn11681114", 
+"@target": "Tn11681016"
+}
+}, 
+"Tn11681115": {
+"edge38906": {
+"@length": 0.1905221, 
+"@source": "Tn11681115", 
+"@target": "Tn11681056"
+}, 
+"edge38908": {
+"@length": 0.02161031, 
+"@source": "Tn11681115", 
+"@target": "Tn11681025"
+}
+}, 
+"Tn11681117": {
+"edge38878": {
+"@length": 0.04514774, 
+"@source": "Tn11681117", 
+"@target": "Tn11681063"
+}, 
+"edge38880": {
+"@length": 0.06578777, 
+"@source": "Tn11681117", 
+"@target": "Tn11681086"
+}
+}, 
+"Tn11681118": {
+"edge38884": {
+"@length": 0.00462229, 
+"@source": "Tn11681118", 
+"@target": "Tn11681031"
+}, 
+"edge38926": {
+"@length": 0.00811412, 
+"@source": "Tn11681118", 
+"@target": "Tn11681050"
+}
+}, 
+"Tn11681119": {
+"edge38904": {
+"@length": 0.03163982, 
+"@source": "Tn11681119", 
+"@target": "Tn11681115"
+}, 
+"edge38914": {
+"@length": 0.14392076, 
+"@source": "Tn11681119", 
+"@target": "Tn11681054"
+}
+}
+}, 
+"nodeById": {
+"Tn11680998": {}, 
+"Tn11680999": {
+"@otu": "Tl1491972"
+}, 
+"Tn11681000": {}, 
+"Tn11681001": {
+"@otu": "Tl1491980"
+}, 
+"Tn11681002": {
+"@otu": "Tl1491807"
+}, 
+"Tn11681003": {}, 
+"Tn11681004": {
+"@otu": "Tl1491964"
+}, 
+"Tn11681005": {
+"@otu": "Tl1491991"
+}, 
+"Tn11681006": {}, 
+"Tn11681007": {
+"@otu": "Tl1491993"
+}, 
+"Tn11681008": {
+"@otu": "Tl1491813"
+}, 
+"Tn11681009": {}, 
+"Tn11681010": {}, 
+"Tn11681011": {
+"@otu": "Tl1491996"
+}, 
+"Tn11681012": {}, 
+"Tn11681013": {}, 
+"Tn11681014": {
+"@otu": "Tl1491836"
+}, 
+"Tn11681015": {
+"@otu": "Tl1491995"
+}, 
+"Tn11681016": {
+"@otu": "Tl1491985"
+}, 
+"Tn11681017": {}, 
+"Tn11681018": {
+"@otu": "Tl1491982"
+}, 
+"Tn11681019": {}, 
+"Tn11681020": {
+"@otu": "Tl1492001"
+}, 
+"Tn11681021": {
+"@otu": "Tl1491979"
+}, 
+"Tn11681022": {
+"@otu": "Tl1491966"
+}, 
+"Tn11681023": {}, 
+"Tn11681024": {}, 
+"Tn11681025": {}, 
+"Tn11681026": {
+"@otu": "Tl1491844"
+}, 
+"Tn11681027": {
+"@otu": "Tl1492006"
+}, 
+"Tn11681028": {
+"@otu": "Tl1491969"
+}, 
+"Tn11681029": {
+"@otu": "Tl1491953"
+}, 
+"Tn11681030": {}, 
+"Tn11681031": {}, 
+"Tn11681032": {
+"@otu": "Tl1491990"
+}, 
+"Tn11681033": {}, 
+"Tn11681034": {
+"@otu": "Tl1491997"
+}, 
+"Tn11681035": {}, 
+"Tn11681036": {
+"@otu": "Tl1491823"
+}, 
+"Tn11681037": {}, 
+"Tn11681038": {}, 
+"Tn11681039": {
+"@otu": "Tl1491983"
+}, 
+"Tn11681040": {
+"@otu": "Tl1491925"
+}, 
+"Tn11681041": {}, 
+"Tn11681042": {
+"@otu": "Tl1491971"
+}, 
+"Tn11681043": {}, 
+"Tn11681044": {}, 
+"Tn11681045": {
+"@otu": "Tl1491935"
+}, 
+"Tn11681046": {}, 
+"Tn11681047": {
+"@otu": "Tl1491986"
+}, 
+"Tn11681048": {
+"@otu": "Tl1491854"
+}, 
+"Tn11681049": {
+"@otu": "Tl1492002"
+}, 
+"Tn11681050": {}, 
+"Tn11681051": {}, 
+"Tn11681052": {}, 
+"Tn11681053": {
+"@otu": "Tl1491974"
+}, 
+"Tn11681054": {}, 
+"Tn11681055": {
+"@otu": "Tl1491981"
+}, 
+"Tn11681056": {
+"@otu": "Tl1492005"
+}, 
+"Tn11681057": {
+"@otu": "Tl1491968"
+}, 
+"Tn11681058": {}, 
+"Tn11681059": {
+"@otu": "Tl1491978"
+}, 
+"Tn11681060": {
+"@otu": "Tl1491962"
+}, 
+"Tn11681061": {
+"@otu": "Tl1491984"
+}, 
+"Tn11681062": {
+"@otu": "Tl1491970"
+}, 
+"Tn11681063": {
+"@otu": "Tl1491967"
+}, 
+"Tn11681064": {}, 
+"Tn11681065": {
+"@otu": "Tl1491942"
+}, 
+"Tn11681066": {}, 
+"Tn11681067": {
+"@otu": "Tl1491998"
+}, 
+"Tn11681068": {}, 
+"Tn11681069": {
+"@otu": "Tl1491817"
+}, 
+"Tn11681070": {
+"@otu": "Tl1491963"
+}, 
+"Tn11681071": {
+"@root": true
+}, 
+"Tn11681072": {}, 
+"Tn11681073": {}, 
+"Tn11681074": {}, 
+"Tn11681075": {}, 
+"Tn11681076": {
+"@otu": "Tl1491975"
+}, 
+"Tn11681077": {
+"@otu": "Tl1491994"
+}, 
+"Tn11681078": {}, 
+"Tn11681079": {}, 
+"Tn11681080": {}, 
+"Tn11681081": {}, 
+"Tn11681082": {}, 
+"Tn11681083": {
+"@otu": "Tl1491988"
+}, 
+"Tn11681084": {
+"@otu": "Tl1491939"
+}, 
+"Tn11681085": {}, 
+"Tn11681086": {
+"@otu": "Tl1492007"
+}, 
+"Tn11681087": {}, 
+"Tn11681088": {}, 
+"Tn11681089": {
+"@otu": "Tl1491896"
+}, 
+"Tn11681090": {}, 
+"Tn11681091": {}, 
+"Tn11681092": {}, 
+"Tn11681093": {
+"@otu": "Tl1491973"
+}, 
+"Tn11681094": {
+"@otu": "Tl1491894"
+}, 
+"Tn11681095": {
+"@otu": "Tl1491999"
+}, 
+"Tn11681096": {}, 
+"Tn11681097": {}, 
+"Tn11681098": {}, 
+"Tn11681099": {
+"@otu": "Tl1492004"
+}, 
+"Tn11681100": {}, 
+"Tn11681101": {
+"@otu": "Tl1491976"
+}, 
+"Tn11681102": {
+"@otu": "Tl1491977"
+}, 
+"Tn11681103": {}, 
+"Tn11681104": {}, 
+"Tn11681105": {
+"@otu": "Tl1491965"
+}, 
+"Tn11681106": {}, 
+"Tn11681107": {
+"@otu": "Tl1492000"
+}, 
+"Tn11681108": {
+"@otu": "Tl1491992"
+}, 
+"Tn11681109": {
+"@otu": "Tl1491987"
+}, 
+"Tn11681110": {
+"@otu": "Tl1491901"
+}, 
+"Tn11681111": {
+"@otu": "Tl1491929"
+}, 
+"Tn11681112": {}, 
+"Tn11681113": {
+"@otu": "Tl1492003"
+}, 
+"Tn11681114": {}, 
+"Tn11681115": {}, 
+"Tn11681116": {
+"@otu": "Tl1491989"
+}, 
+"Tn11681117": {}, 
+"Tn11681118": {}, 
+"Tn11681119": {}
+}
+}
+}
+}
+}
+}
+}
