@@ -12,7 +12,7 @@
 "xsd": "http://www.w3.org/2001/XMLSchema#",
 "xsi": "http://www.w3.org/2001/XMLSchema-instance"
 },
-"^bogus_timestamp": "2023-08-02T21:10:00.142785",
+"^bogus_timestamp": "2023-08-07T19:40:48.709719",
 "^ot:agents": {
 "agent": [
 {
@@ -26,7 +26,7 @@
 "otherProperty": [
 {
 "name": "pythonVersion",
-"value": "3.10.6"
+"value": "3.10.12"
 },
 {
 "name": "pythonImplementation",
